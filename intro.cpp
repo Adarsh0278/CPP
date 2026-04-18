@@ -1,11 +1,11 @@
 #include <iostream>
-    
+using namespace std;
 
 int main(){
-    int a = 10;
-    int b = 20;
+    int a = 5;
+    int b = 10;
     int c = a + b;
-    std::cout << "The sum of a and b is: " << c << std::endl;
+    cout << "The sum of a and b is: " << c << endl;
 
     return 0;
 }
