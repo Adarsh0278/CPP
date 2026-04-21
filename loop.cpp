@@ -62,9 +62,3 @@ using namespace std;
 // }
 
 
-int main() {
-    int n = 5; // size of the row
-    if (cout << n) {
-        cout << n << " is the size of the row." << endl;
-    }
-}
