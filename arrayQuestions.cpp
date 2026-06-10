@@ -79,3 +79,24 @@ using namespace std;
 //         }
 
 // }
+
+//------------------------------------------------
+// find unique value
+
+
+int main()
+{
+    int arr[] = {1, 2, 2, 21, 21};
+    int size = 5;
+
+    int ans = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        ans = ans ^ arr[i];
+    }
+
+    cout << "Unique element: " << ans;
+
+    return 0;
+}
